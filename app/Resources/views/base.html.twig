@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %} {% endblock %}| Linio</title>
+        {% block stylesheets %}
+        <link href="{{ asset('public/css/style.css') }}"rel="stylesheet" type="text/css" />
+        <link href="{{ asset('public/css/style_countries.css') }}"rel="stylesheet" type="text/css" />
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+
+    <body>
+
+        {% block body %}{% endblock %}
+        
+       <div id="menu">
+        <a href="{{ path('inicio') }}" id="inicio">Inicio</a>
+        <a href="{{ path('mx') }}" id="mx">México</a>
+        <a href="{{ path('co')}}" id="co">Colombia</a>
+        <a href="{{ path('pe') }}" id="pe">Perú</a>
+        <a href="{{ path('pa') }}" id="pa">Paraguay</a>
+        <a href="{{ path('ch') }}" id="ch">Chile</a>
+        </div>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,29 @@
+frontend_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: FrontendBundle:Default:index }
+
+inicio:
+    path:     /inicio
+    defaults: { _controller: FrontendBundle:Default:inicio }
+
+mx:
+    path:     /mx
+    defaults: { _controller: FrontendBundle:Default:mx }
+
+co:
+    path:     /co
+    defaults: { _controller: FrontendBundle:Default:co }
+pe:
+    path:     /pe
+    defaults: { _controller: FrontendBundle:Default:pe }
+
+pa:
+    path:     /pa
+    defaults: { _controller: FrontendBundle:Default:pa }
+
+ch:
+    path:     /ch
+    defaults: { _controller: FrontendBundle:Default:ch }
+faqs:
+    path:     /faq
+    defaults: { _controller: FrontendBundle:Default:faq }

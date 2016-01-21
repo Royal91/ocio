@@ -1,0 +1,8 @@
+h1#country
+{
+	color: white;
+	font-size: 140px;
+	text-align: center;
+	z-index: 2;	
+	margin-top: 200px;
+}
